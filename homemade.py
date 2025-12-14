@@ -3,12 +3,22 @@ Some example classes for people who want to create a homemade bot.
 
 With these classes, bot makers will not have to implement the UCI or XBoard interfaces themselves.
 """
+import os
+import sys
+
+# Add project root to sys.path so "import lib" works when launched from /engines
+ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+if ROOT not in sys.path:
+    sys.path.insert(0, ROOT)
+
 import chess
 from chess.engine import PlayResult, Limit
 import random
 from lib.engine_wrapper import MinimalEngine
 from lib.lichess_types import MOVE, HOMEMADE_ARGS_TYPE
 import logging
+
+
 
 
 # Use this logger variable to print messages to the console or log files.
