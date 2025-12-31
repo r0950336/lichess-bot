@@ -1,2 +1,4 @@
-
-
+# Big datasets (don’t commit)
+data/*.pgn
+data/**/*.pgn
+*.pgn
