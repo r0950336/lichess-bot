@@ -1,0 +1,5 @@
+2025-12-28 00:01:41,038 urllib3.connectionpool (connectionpool.py:289) DEBUG Resetting dropped connection: lichess.org
+2025-12-28 00:01:41,395 urllib3.connectionpool (connectionpool.py:544) DEBUG https://lichess.org:443 "GET /api/users/status?ids=r0950336 HTTP/1.1" 200 None
+2025-12-28 00:01:41,396 lib.lichess_bot (lichess_bot.py:444) DEBUG Event: {'type': 'correspondence_ping'}
+2025-12-28 00:06:41,183 lib.lichess_bot (lichess_bot.py:444) DEBUG Event: {'type': 'correspondence_ping'}
+2025-12-28 00:11:41,184 lib.lichess_bot (lichess_bot.py:444) DEBUG Event: {'type': 'correspondence_ping'}
