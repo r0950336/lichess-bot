@@ -1,4 +1,5 @@
-# Big datasets (don’t commit)
+# huge lichess datasets
 data/*.pgn
-data/**/*.pgn
-*.pgn
+data/*.pgn.gz
+data/*.zip
+data/*.7z
